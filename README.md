@@ -1,2 +1,7 @@
 # Half-Life---Week-5-Hydroplanter
-A plant waterer that uses moisture sensors to detect when the plant needs watering, then a pump will pump water from a bowl/bottle of water to the plant.
+A plant waterer that uses moisture sensors to detect when the plant needs watering, then a pump will pump water from a bowl/bottle of water to the plant. The design was made in KiCad and the code was made in Arduino IDE. I made this project because my plant, Dusty, is in need of consistent watering and it suffers a lot from when I leave the house for extended periods of time, like when I am camping. The PCB is built around an ESP32-C3 microcontroller. It monitors soil moisture and water level, controls a pump through a MOSFET, manages battery charging and protection, and displays status information on an OLED. The wiring is really trash because I'm bad at wiring but it should work. 
+<img width="800" height="787" alt="Screenshot 2026-11-07 181000" src="https://github.com/user-attachments/assets/0d1b86e0-8110-4b8e-8540-70c8102d9ba9" />
+<img width="1115" height="832" alt="Screenshot 2026-11-07 180919" src="https://github.com/user-attachments/assets/171a387f-5155-4532-8b52-8fc4ab311c49" />
+<img width="826" height="757" alt="Screenshot 2026-11-07 170209" src="https://github.com/user-attachments/assets/16b13838-f18c-4d73-96a7-c10018e75469" />
+<img width="820" height="777" alt="Screenshot 2026-11-07 170149" src="https://github.com/user-attachments/assets/bfc373b8-c6bf-4de2-b83d-24ea4dcae584" />
+<img width="737" height="527" alt="Screenshot 2026-11-08 013754" src="https://github.com/user-attachments/assets/93dad28b-3ca6-421c-8da9-f60ecd8ccd4d" />
