@@ -1,6 +1,9 @@
 # Half-Life---Week-5-Hydroplanter
 A plant waterer that uses moisture sensors to detect when the plant needs watering, then a pump will pump water from a bowl/bottle of water to the plant. The design was made in KiCad and the code was made in Arduino IDE. I made this project because my plant, Dusty, is in need of consistent watering and it suffers a lot from when I leave the house for extended periods of time, like when I am camping. The PCB is built around an ESP32-C3 microcontroller. It monitors soil moisture and water level, controls a pump through a MOSFET, manages battery charging and protection, and displays status information on an OLED. The wiring is really trash because I'm bad at wiring but it should work. The Arduino firmware I wrote monitors soil moisture and water-tank availability, displays the plant’s moisture level on an OLED screen, and automatically controls a pump. It starts watering when the soil moisture falls to 30% or below, stops at 55%, and includes safety limits for an empty tank, a 15-second maximum runtime, and a 10-minute delay between watering cycles. It also averages multiple soil-sensor readings, converts them into a 0–100% moisture value, and shows the plant graphic, status, and sensor data on the display.
 
+Onshape Link:
+https://cad.onshape.com/documents/5bbc0352c67ef33b2cdba1d2/w/0c9466e1c6beb604306bf71a/e/59fa4b2cb4097b58a1eba9d7?renderMode=0&uiState=6af141bfefa43e0b0855de01
+
 ## Bill of Materials
 
 | Part | Qty | Unit Price (USD) | Total (USD) | Vendor |
